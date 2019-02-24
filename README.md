@@ -1,2 +1,2 @@
-# TryLoveTree
+# Try.Love.Tree
 Final project
