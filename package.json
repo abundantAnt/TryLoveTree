@@ -1,35 +1,26 @@
 {
   "name": "TryLoveTree",
   "version": "1.0.0",
-  "description": "",
+  "description": "Try Love Tree",
   "main": "server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexrosenkranz/google-books.git"
+    "url": "git+https://github.com/abundantAnt/TryLoveTree.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexrosenkranz/google-books/issues"
+    "url": "https://github.com/abundantAnt/TryLoveTree/issues"
   },
-  "homepage": "https://github.com/alexrosenkranz/google-books#readme",
+  "homepage": "https://github.com/abundantAnt/TryLoveTree#readme",
   "dependencies": {
-    "concurrently": "^4.1.0",
     "express": "^4.16.4",
-    "if-env": "^1.0.4",
     "mongoose": "^5.4.17",
-    "morgan": "^1.9.1",
-  },
-  "devDependencies": {
+    "morgan": "^1.9.1"
   }
 }

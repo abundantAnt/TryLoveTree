@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import API from '../utils/API';
 
-class Singlerelative extends Component {
+class SingleRelative extends Component {
   state={
     relativeData: {}
   }
